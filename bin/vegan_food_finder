@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+# requiring the vegan_food_finder.rb module
+require_relative '../lib/vegan_food_finder.rb'
+# lib/vegan_food_finder.rb
+# /Users/alexsanchez/vegan_food_finder/lib/vegan_food_finder.rb
+
+# want this to be able to start my program
+# instantiate a new CLI and use a call method
+
+VeganFoodFinder::CLI.new.call

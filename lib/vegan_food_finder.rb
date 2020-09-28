@@ -1,6 +1,6 @@
-require "vegan_food_finder/version"
+# this file is acting as the environment
+# requiring all other files in this version
+require_relative "vegan_food_finder/version"
 
-module VeganFoodFinder
-  class Error < StandardError; end
-  # Your code goes here...
-end
+#
+require_relative 'vegan_food_finder/cli'
